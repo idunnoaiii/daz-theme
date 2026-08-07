@@ -1,0 +1,59 @@
+{
+	"name": "daz-theme",
+	"displayName": "daz-theme",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.125.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "assets/icon.png",
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "monospace-icons",
+				"label": "DAZ Monospace Icons",
+				"path": "./icons/monospace-icon-theme.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "DAZ Monospace Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monospace-dark.json"
+			},
+			{
+				"label": "DAZ Monospace Light",
+				"uiTheme": "vs",
+				"path": "./themes/monospace-light.json"
+			},
+			{
+				"label": "DAZ Space Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/space-dark.json"
+			},
+			{
+				"label": "DAZ Space Light",
+				"uiTheme": "vs",
+				"path": "./themes/space-light.json"
+			},
+			{
+				"label": "DAZ Dracula Refined",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula.json"
+			},
+			{
+				"label": "DAZ Mirage",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mirage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1785034577419,
+		"targetPlatform": "undefined",
+		"size": 1146634
+	}
+}
