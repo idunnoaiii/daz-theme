@@ -76,27 +76,30 @@
     "editorLineNumber.foreground": "#ffffff33",
     "editorLineNumber.activeForeground": "#ffffff5a",
     "editorCursor.foreground": "#ffcc66",
-    "editor.wordHighlightBackground": "#8b98a9ff",
+    "editor.wordHighlightBackground": "#5c6773",
     "editor.wordHighlightStrongBackground": "#ffffff1a",
     "editor.selectionBackground": "#33415eb3",
-    "editor.selectionHighlightBackground": "#8b98a9ff",
+    "editor.selectionHighlightBackground": "#5c6773",
     "editor.inactiveSelectionBackground": "#ffffff10",
     "editor.findMatchBackground": "#ffdf803c",
-    "editor.findMatchHighlightBackground": "#8b98a9ff",
-    "editor.lineHighlightBackground": "#ffffff0d",
-    "editorLink.activeForeground": "#73d0ff",
-    "editor.rangeHighlightBackground": "#8b98a9ff",
-    "editorWhitespace.foreground": "#8b98a9ff",
+    "editor.findMatchHighlightBackground": "#5c6773",
+    "editor.findMatchBorder": "#df8128ff",
+    "editor.findMatchHighlightBorder": "#ffc26eff",
+    "editor.selectionHighlightBorder": "#98e4b999",
+    "editor.wordHighlightBorder": "#ffc9aaff",
+    "editor.wordHighlightStrongBorder": "#ffc9aaff",
+    "editor.rangeHighlightBackground": "#5c6773",
+    "editorWhitespace.foreground": "#5c6773",
     "editorIndentGuide.background": "#ffffff1a",
     "editorIndentGuide.activeBackground": "#ffffff33",
     "editorRuler.foreground": "#ffffff1a",
-    "editorCodeLens.foreground": "#8b98a9ff",
-    "editorBracketMatch.background": "#8b98a9ff",
-    "editorBracketMatch.border": "#8b98a9ff",
+    "editorCodeLens.foreground": "#5c6773",
+    "editorBracketMatch.background": "#5c6773",
+    "editorBracketMatch.border": "#5c6773",
     "editorOverviewRuler.border": "#ffffff12",
     "editorOverviewRuler.findMatchForeground": "#ffdf803c",
-    "editorOverviewRuler.rangeHighlightForeground": "#8b98a9ff",
-    "editorOverviewRuler.selectionHighlightForeground": "#8b98a9ff",
+    "editorOverviewRuler.rangeHighlightForeground": "#5c6773",
+    "editorOverviewRuler.selectionHighlightForeground": "#5c6773",
     "editorOverviewRuler.wordHighlightForeground": "#ffffff1a",
     "editorOverviewRuler.wordHighlightStrongForeground": "#ffffff1a",
     "editorOverviewRuler.modifiedForeground": "#ffd580",
@@ -128,11 +131,11 @@
     "peekView.border": "#73d0ff",
     "peekViewEditor.background": "#191e2a",
     "peekViewEditorGutter.background": "#191e2a",
-    "peekViewEditor.matchHighlightBackground": "#8b98a9ff",
+    "peekViewEditor.matchHighlightBackground": "#5c6773",
     "peekViewResult.background": "#191e2a",
     "peekViewResult.fileForeground": "#cbccc6",
     "peekViewResult.lineForeground": "#cbccc6",
-    "peekViewResult.matchHighlightBackground": "#8b98a9ff",
+    "peekViewResult.matchHighlightBackground": "#5c6773",
     "peekViewResult.selectionBackground": "#ffffff1a",
     "peekViewResult.selectionForeground": "#cbccc6",
     "peekViewTitle.background": "#141920",
@@ -210,7 +213,13 @@
     "breadcrumb.background": "#1f2430",
     "breadcrumb.focusForeground": "#cbccc6",
     "breadcrumb.activeSelectionForeground": "#cbccc6",
-    "breadcrumbPicker.background": "#191e2a"
+    "breadcrumbPicker.background": "#191e2a",
+    "editorBracketHighlight.foreground1": "#85cdf1ff",
+    "editorBracketHighlight.foreground2": "#ffd395ff",
+    "editorBracketHighlight.foreground3": "#bd9cfeff",
+    "editorBracketHighlight.foreground4": "#85cdf1ff",
+    "editorBracketHighlight.foreground5": "#ffd395ff",
+    "editorBracketHighlight.foreground6": "#bd9cfeff"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -224,7 +233,7 @@
     "enumMember.defaultLibrary.library": "#f07076",
     "enumMember": "#f07076"
   },
-   "tokenColors": [
+  "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
@@ -243,7 +252,7 @@
       }
     },
     {
-      "scope": ["entity", "entity.name"],
+      "scope": ["entity", "entity.name", "source.nim support.function"],
       "settings": {
         "foreground": "#92a9ffff"
       }
@@ -679,7 +688,9 @@
         "entity.name.tag.yaml",
         "variable.other.key.toml",
         "entity.name.fragment.graphql",
-        "variable.fragment.graphql"
+        "variable.fragment.graphql",
+        "source.nim storage.type.concrete.nim",
+        "source.nim support.type.nim"
       ],
       "settings": {
         "foreground": "#5ccfe6"
